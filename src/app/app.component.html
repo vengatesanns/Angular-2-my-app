@@ -1,0 +1,19 @@
+<nav class="navbar navbar-default">
+        <div class="container-fluid">
+          <div class="navbar-header">
+                <a class="navbar-brand title" href="#">HandTech</a>
+        </div>
+        <ul class="nav navbar-nav">
+              <li><a  class="active btncolor"><span class="glyphicon glyphicon-home">&nbsp;</span>Home</a></li>
+      <li><a [routerLink]="['todo_list']"class="btncolor"><span class="glyphicon glyphicon-list">&nbsp;</span>Todo-List</a></li>
+      <li><a [routerLink]="['new-Event']" class="btncolor"><span class="glyphicon glyphicon-earphone">&nbsp;</span>Contact us</a></li>
+      <li><a  class="btncolor"><span class="glyphicon glyphicon-flag">&nbsp;</span>About</a></li>
+        </ul>
+         <ul class="nav navbar-nav navbar-right">
+      <li><a href="#" class="btncolor"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+      <li><a href="#" class="btncolor"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+    </ul>
+         </div>   
+  </nav>
+
+<router-outlet></router-outlet>

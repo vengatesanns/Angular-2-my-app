@@ -1,0 +1,73 @@
+/* You can add global styles to this file, and also import other style files */
+/*@import "../node_modules/bootstrap/dist/css/bootstrap.min.css";*/
+.footer
+{
+    height : 160px;
+    background-color:teal;
+}
+.row
+{
+    height: 200px;
+}
+.img-rounded
+{
+    height: 70px;
+    width: 90px;
+}
+
+h6
+{
+    color:black;
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 190px;
+}
+.nav{
+    background-color:white;
+}
+#list
+{
+    color:black;
+    font-size:16px;
+    
+}
+
+.title
+{
+    color:black;
+}
+#head1
+{
+    color:white;
+}
+.btncolor
+{
+    background-color:burlywood;
+}
+.container
+{
+    height:50px;
+}
+.jumbotron
+{
+    height:370px;
+}
+tr {
+width: 100%;
+display: inline-table;
+table-layout: fixed;
+}
+
+table{
+ height:300px;             
+ display: inline-block;   
+}
+tbody{
+  overflow-y: scroll;      
+  height: 250px;           
+  position: absolute;
+}

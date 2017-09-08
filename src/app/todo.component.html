@@ -1,0 +1,35 @@
+
+    <div class="row ">
+             <div class="col-xs-1">
+        </div>
+        <div class="col-md-3 jumbotron">
+            <new-Event></new-Event>
+        </div>
+        <div class="col-xs-1">
+        </div>
+        <div class="col-md-6 jumbotron">
+            <table class="table table-responsive " data-height="200">
+                <thead>
+                    <tr>
+                        <th>Event no</th>
+                        <th>Event Name</th>
+                        <th>Event Description</th>
+                        <th>Location</th>
+                        <th> Date </th>
+                        <th> Time </th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor="let x of events">
+                        <td>{{x.eventNo}}</td>
+                        <td>{{x.eventName}}</td>
+                        <td>{{x.eventDescription}}</td>
+                        <td>{{x.location}}</td>
+                        <td>{{x.date}}</td>
+                        <td>{{x.time}}</td>
+                    </tr>
+                </tbody>
+               
+            </table>
+        </div>
+    </div>
